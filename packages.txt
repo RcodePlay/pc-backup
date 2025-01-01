@@ -1,0 +1,2 @@
+base base-devel blueman bluez bluez-utils cmake curl efibootmgr firefox flatpak dunst fzf hyprland intel-graphics-compiler jdk-openjdk kitty linux linux-firmware linux-headers make mesa mkinitcpio nano neovim networkmanager ninja nodejs openssh os-prober pipewire pipewire-pulse wireplumber python swaylock systemd thunar ufw unzip upower waybar wayland zip grub
+
