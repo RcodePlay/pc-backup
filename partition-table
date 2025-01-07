@@ -1,0 +1,11 @@
+label: gpt
+device: /dev/sda 	# in case the drive you're partitioning is the main one
+unit: sectors
+first-lba: 34
+last-lba: 500118158
+sector-size: 512
+
+/dev/sda1 : label= EFI, size=	1G, type=  FAT32
+/dev/sda2 : label= BOOT, size=	1G, type=  ext4
+/dev/sda3 : label= SWAP, size=	4G, type=  Linux swap
+/dev/sda4 : label= ROOT, size=	232.5G, type=  ext4
